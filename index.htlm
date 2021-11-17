@@ -1,0 +1,45 @@
+<--Gurshan Gulati-->
+ <--November 5 2021-->
+<--quiz 1A→
+<--TEJ2O-->
+<!DOCTYPE html>
+<body>
+  <h1>My First HTML Quiz</h1>
+  <img src="https://www.udacity.com/blog/wp-content/uploads/2020/06/HTML_Blog-scaled.jpeg" >
+  <div>
+    <h2>My thoughts</h2>
+    <p>I think HTML is like learning a new language because you have to write all these weird letters any symbols that you don't understand but with more time you can read it no problem.</p>
+  <p>I thing it is very annoying that I have to write the same thing twice but I understand why I have to do that now.</p>
+  <p>I think it is very easy to understand when you know the basics but some stuff is to complicated.<p>
+    </div>
+    <di>
+      <h3>research</h3>
+
+    <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">the link for the website talking about HTML</a>
+    </div>
+    <div>
+      <table>
+    <thead>
+      <tr>
+        <th>Course</th>
+        <th>Good thing about course</th>
+        <th>Bad thing about course</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Math</td>
+        <td>If you understand the formulas to the equations you can do most of the math questions</td>
+        <td>Math requires a lot of thinking and concentration</td>
+      </tr>
+        <td>Computer class</td>
+        <td>I get to sit down and research. Some people find it very boring but I find it to be the perfect thing to do it the morning.</td>
+        <td>When you are done your work there isn't really anything to do so you just sit there either sleeping or just playing games</td>
+      
+   
+    </tbody>
+    <tfoot>
+     
+      </div>
+</body>
+

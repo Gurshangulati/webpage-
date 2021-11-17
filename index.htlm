@@ -3,7 +3,7 @@
  <--November 5 2021-->
 <--quiz 1A→
 <--TEJ2O-->
-
+<html>
 <body>
   <h1>My First HTML Quiz</h1>
   <img src="https://www.udacity.com/blog/wp-content/uploads/2020/06/HTML_Blog-scaled.jpeg" >
@@ -43,4 +43,4 @@
      
       </div>
 </body>
-
+</html>

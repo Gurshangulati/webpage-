@@ -1,46 +1,209 @@
 <!DOCTYPE html>
-<--Gurshan Gulati-->
- <--November 5 2021-->
-<--quiz 1A→
-<--TEJ2O-->
 <html>
-<body>
-  <h1>My First HTML Quiz</h1>
-  <img src="https://www.udacity.com/blog/wp-content/uploads/2020/06/HTML_Blog-scaled.jpeg" >
-  <div>
-    <h2>My thoughts</h2>
-    <p>I think HTML is like learning a new language because you have to write all these weird letters any symbols that you don't understand but with more time you can read it no problem.</p>
-  <p>I thing it is very annoying that I have to write the same thing twice but I understand why I have to do that now.</p>
-  <p>I think it is very easy to understand when you know the basics but some stuff is to complicated.<p>
-    </div>
-    <di>
-      <h3>research</h3>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
 
-    <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">the link for the website talking about HTML</a>
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color:#fff;
+  color: black;
+}
+
+.header a.active {
+  background-color: grey;
+  color:white;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+ 
+  #bannerimage {
+  width: 100%;
+  background-image: url("https://images.macrumors.com/t/lAKY1pj46Ml5PSKaVkbB8gA6OAc=/800x0/smart/article-new/2021/09/iphone-13-pro-models.jpg?lossy");
+  height: 405px;
+  background-color: purple;
+  background-position: center;
+}
+  <div id="bannerimage"></div>
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <a href="#default" class="logo">apple</a>
+  <div class="header-right">
+    <a class="active" href="#home">store</a>
+    <a href="#contact">mac</a>
+    <a href="#about">ipad</a>
+    <a href="#about">iphone</a>
+    <a href="#about">watch</a>
+    <a href="#about">AirPods</a>
+    <a href="#about">Tv and Home</a>
+    <a href="#about">Only on apple</a>
+    <a href="#about">Accessories</a>
+    <a href="#about">support</a>
+  </div>
+</div>
+
+  
+ 
+  
+  <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  text-align: center;
+  color:white;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+</style>
+</head>
+<body>
+ <div class="centered">IPHONE 13 PRO</div>
+<div class="container">
+ 
+ 
+  <div class="centered">IPHONE 13 PRO</div>
+       <div class='content'>
+    <img src='https://images.macrumors.com/t/lAKY1pj46Ml5PSKaVkbB8gA6OAc=/800x0/smart/article-new/2021/09/iphone-13-pro-models.jpg?lossy' class='writer-img'>
     </div>
-    <div>
-      <table>
-    <thead>
-      <tr>
-        <th>Course</th>
-        <th>Good thing about course</th>
-        <th>Bad thing about course</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Math</td>
-        <td>If you understand the formulas to the equations you can do most of the math questions</td>
-        <td>Math requires a lot of thinking and concentration</td>
-      </tr>
-        <td>Computer class</td>
-        <td>I get to sit down and research. Some people find it very boring but I find it to be the perfect thing to do it the morning.</td>
-        <td>When you are done your work there isn't really anything to do so you just sit there either sleeping or just playing games</td>
-      
-   
-    </tbody>
-    <tfoot>
-     
-      </div>
-</body>
-</html>
+  </div>
+<div style="padding-left:20px">
+   <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  text-align: center;
+  color:black;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+</style>
+</head>
+<body>
+ 
+<div class="container">
+  
+ 
+  <div class="centered">AIRPODS</div>
+      <img src='https://pyxis.nymag.com/v1/imgs/865/b0c/65f6ace0f8c402e469b64a95c2594cc357-DOD-headphones.rsquare.w1200.jpg' class='writer-img'>
+  </div>
+
+ <div class="header">
+  <a href="#default" class="logo"></a>
+  <div class="header-right">
+    <a class="active" href="#home">store</a>
+    <a href="#contact">mac</a>
+    <a href="#about">ipad</a>
+    <a href="#about">iphone</a>
+    <a href="#about">watch</a>
+    <a href="#about">AirPods</a>
+    <a href="#about">Tv and Home</a>
+    <a href="#about">Only on apple</a>
+    <a href="#about">Accessories</a>
+    <a href="#about">support</a>
+<body>
+ <html>
+
